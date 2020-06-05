@@ -1,0 +1,159 @@
+.navbar {
+    background:rgb(128, 0, 0) !important;
+} 
+
+.nav-link {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: large !important;
+}
+
+#carouselExampleIndicators{
+    margin-top: 10px !important;
+}
+
+.card{
+    background-color: #B2DFDB;
+    text-align: center;
+    margin: 10px;
+
+}
+.contain{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-img{
+    margin: 25px 0 0px 0px; 
+}
+
+.usedheading{
+    border: black 2px solid;
+    background: #B2DFDB;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+#details123 {
+    background-color: rgb(39, 39, 41);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(179, 179, 179);
+    padding: 48px 20px 10px 20px;
+}
+
+#address12 {
+    width: 390px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#address12 p {
+    margin-left: 43px;
+    margin-top: 30px;
+}
+
+#address12 ul li {
+    display: flex;
+    padding-bottom: 6px;
+    /* flex-wrap: wrap; */
+}
+
+#contactlinks ul {
+    display: flex;
+    list-style: none;
+}
+
+#contactlinks p {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Merriweather';
+    margin-left: 48px;
+}
+
+#contactlinks ul li img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 6px;
+    padding: 0px;
+}
+
+#usefullinks {
+    width: 360px;
+}
+
+#usefullinks hr {
+    background-color: rgb(14, 71, 6);
+}
+
+#usefullinks p {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Merriweather';
+}
+
+#contactlinks {
+    width: 360px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+#copyright {
+    background-color: rgb(128, 0, 0);
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.button login{
+    border: black 5px solid;
+}
+.btn-primary{
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgb(128, 0, 0) ;
+}
+
+.map{
+    margin: 10px;
+}
+.needs-validation{
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    font-size: larger;
+    font-weight: bold;
+}
+.d-block {
+    height: 400px;
+}
+@media screen and (max-width: 800px) {
+    .d-block {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .d-block {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .d-block {
+        height: 250px;
+}
+
+.silder{
+    margin: 10px  !important;
+}
